@@ -1,20 +1,17 @@
 \documentclass{VUMIFCS1magistrinis}
-\usepackage{cite}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{bm}
-\usepackage{amsfonts}
+\usepackage{caption}
+\usepackage{color}
 \usepackage{float}
 \usepackage{graphicx}
-\usepackage{color}
 \usepackage{listings}
-\usepackage{wrapfig}
-\usepackage{algpseudocode}
-\usepackage{algorithm}
-\usepackage{algorithmicx}
-\usepackage{caption}
 \usepackage{subfig}
-
-% \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\usepackage{wrapfig}
 
 % Titulinio aprašas
 \university{Vilniaus universitetas}
@@ -29,6 +26,10 @@
 \supervisor{prof. habil. dr. Vardaitis Pavardaitis}
 \reviewer{doc. dr. Vardauskas Pavardauskas}
 \date{Vilnius – \the\year}
+
+% Nustatymai
+% \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\bibliography{bibliografija}
 
 \begin{document}
 \maketitle
@@ -67,7 +68,10 @@ pradiniai duomenys, analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 gautų rezultatų apibendrinimas.
 
 \subsection{Poskyris}
-Citavimo pavyzdys \cite{Banerjee1997}, \cite{EgArticle}.
+Citavimo pavyzdžiai: cituojamas vienas šaltinis \cite{PvzStraipsnLt}; cituojami
+keli šaltiniai \cite{PvzStraipsnEn, PvzKonfLt, PvzKonfEn, PvzKnygLt, PvzKnygEn,
+PvzElPubLt, PvzElPubEn, PvzMagistrLt, PvzPhdEn}.
+
 \subsubsection{Skirsnis}
 \subsubsubsection{Straipsnis}
 \subsubsection{Skirsnis}
@@ -81,7 +85,7 @@ išanalizuota, kažkas sukurta, kažkas įdiegta), pateikiamos išvados (daromi
 nagrinėtų problemų sprendimo metodų palyginimai, siūlomos rekomendacijos,
 akcentuojamos naujovės).
 
-\bibliography{bibliografija}   % Literatūros šaltiniai aprašomi bibliografija.bib faile
+\printbibliography  % Literatūros šaltiniai aprašomi bibliografija.bib faile
 % Šaltinių sąraše nurodoma panaudota literatūra, kitokie šaltiniai. Abėcėlės
 % tvarka išdėstoma tik darbe panaudotų (cituotų, perfrazuotų ar bent paminėtų)
 % mokslo leidinių, kitokių publikacijų bibliografiniai aprašai (šiuo punktu
