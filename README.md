@@ -16,6 +16,6 @@ Rašom rašinius į: `thesis.tex`
 
 2. Padarom: `make ubuntu` (įrašo XeLatex, Biber ir Palemonas šriftą).
 
-3. Tada Latex -> pdf pavertimui darom: `make generuoti`.
+3. Tada Latex -> pdf pavertimui darom: `make generuoti` ir gaunam `mano.pdf`.
 
 4. Daugiau nedega smegenys nuo MS Word ir išvengiate daugumos lėtinių ligų.

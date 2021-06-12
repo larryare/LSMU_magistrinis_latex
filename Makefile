@@ -2,7 +2,8 @@ generuoti:
 	xelatex magistrinis.tex
 	biber magistrinis
 	xelatex magistrinis.tex
-	open magistrinis.pdf || xdg-open magistrinis.pdf
+	mv magistrinis.pdf mano.pdf
+	# open magistrinis.pdf || xdg-open magistrinis.pdf
 
 ubuntu:
 	echo "Diegiamas LaTeX (PdfLaTeX, XeTeX ir kt.)"
