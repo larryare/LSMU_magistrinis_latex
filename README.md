@@ -16,7 +16,7 @@ Rašom rašinius į: `mano.tex`
 
 2. Padarom: `./get-latex.sh` (įrašo XeLatex, Biber ir Palemonas šriftą).
 Jei neveikia tai `chmod +x get-latex.sh`, bet ligtais padariau kad nereiktų.
-Jei esi *normalus* ir naudoji arch, tai komanda bus yay texlive-full biber tex-gyre-fonts
+Jei esi *normalus* ir naudoji arch, tai komanda bus `yay texlive-full biber tex-gyre-fonts`
 
 3. Tada Latex -> pdf pavertimui darom: `./magija.sh` ir gaunam `mano.pdf`.
 
