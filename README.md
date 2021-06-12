@@ -15,6 +15,7 @@ Rašom rašinius į: `mano.tex`
 1. `git clone` kur patogu.
 
 2. Padarom: `./get-latex.sh` (įrašo XeLatex, Biber ir Palemonas šriftą).
+Jei neveikia tai `chmod +x get-latex.sh`, bet ligtais padariau kad nereiktų.
 
 3. Tada Latex -> pdf pavertimui darom: `./magija.sh` ir gaunam `mano.pdf`.
 
