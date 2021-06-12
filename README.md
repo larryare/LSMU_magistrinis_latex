@@ -10,12 +10,18 @@ Beveik visi studentai serga lėtine MS Word naudojimo liga.
 
 ## Kaip naudoti?
 
-Rašom rašinius į: `thesis.tex`
+Rašom rašinius į: `mano.tex`
 
 1. `git clone` kur patogu.
 
-2. Padarom: `make ubuntu` (įrašo XeLatex, Biber ir Palemonas šriftą).
+2. Padarom: `./get-latex.sh` (įrašo XeLatex, Biber ir Palemonas šriftą).
 
-3. Tada Latex -> pdf pavertimui darom: `make generuoti` ir gaunam `mano.pdf`.
+3. Tada Latex -> pdf pavertimui darom: `./magija.sh` ir gaunam `mano.pdf`.
 
 4. Daugiau nedega smegenys nuo MS Word ir išvengiate daugumos lėtinių ligų.
+
+### Prisidėkite
+
+1. `./git-clean.sh`
+
+2. Darom pull request
