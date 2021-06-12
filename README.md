@@ -12,8 +12,10 @@ Beveik visi studentai serga lėtine MS Word naudojimo liga.
 
 Rašom rašinius į: `thesis.tex`
 
-1. Padarom: `make ubuntu` (įrašo XeLatex, Biber ir Palemonas šriftą)
+1. `git clone` kur patogu.
 
-2. Tada Latex -> pdf pavertimui darom: `make generuoti`
+2. Padarom: `make ubuntu` (įrašo XeLatex, Biber ir Palemonas šriftą).
 
-3. Daugiau nedega smegenys nuo MS Word ir išvengiate daugumos lėtinių ligų.
+3. Tada Latex -> pdf pavertimui darom: `make generuoti`.
+
+4. Daugiau nedega smegenys nuo MS Word ir išvengiate daugumos lėtinių ligų.
