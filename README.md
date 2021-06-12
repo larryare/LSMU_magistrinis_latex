@@ -1,20 +1,19 @@
-# LSMU_magistrinis_latex
-VU MIF CS1 XeLaTeX template for master thesis. 
-Baigiamojo darbo šablonas (LaTeX)
-=================================
+# LSMU baigiamojo darbo šablonas (LaTeX)
 
-Šis baigiamųjų darbų šablonas yra sukurtas pagal VU MIF Kompiuterijos katedros 
-2015 metų LaTeX šablono V1.0 stilių. Šis šablonas yra perdarytas nuo nulio,
-siekiant išspręsti kai kurias problemas bei supaprastinti šablono naudojimą.
-Šis šablonas tinkamas kursiniams, bakalauro ir magistro baigiamiesiems darbams,
-tereikia pasirinkti tinkamas struktūrines dalis. Šis šablonas pritaikytas
-lietuvių kalbai.
+## Kodėl?
 
-Pagrindinis failas: ``thesis.tex``
+Beveik visi studentai serga lėtine MS Word naudojimo liga.
 
-Norint paruošti aplinką Ubuntu sistemoje šakninėje šio projekto
-direktorijoje pakanka įvykdyti ``make ubuntu``. Įvykdžius šią komandą bus
-įdiegiami XeLaTeX, Biber bei Palemonas šriftas. 
+## Kas?
 
-Sukonstruoti PDF išeities failą galima šio projekto šakninėje direktorijoje
-įvykdžius komandą ``make`` (tai galioja Linux distribucijoms).
+Šis šablonas nukopijuotas nuo VU. Šablonas **beveik** tinkamas kursiniams, MTD, magistro baigiamiesiems darbams, tereikia pasirinkti tinkamas struktūrines dalis. Šis šablonas pritaikytas lietuvių kalbai.
+
+## Kaip naudoti?
+
+Rašom rašinius į: `thesis.tex`
+
+1. Padarom: `make ubuntu` (įrašo XeLatex, Biber ir Palemonas šriftą)
+
+2. Tada Latex -> pdf pavertimui darom: `make generuoti`
+
+3. Daugiau nedega smegenys nuo MS Word ir išvengiate daugumos lėtinių ligų.
