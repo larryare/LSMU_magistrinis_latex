@@ -80,7 +80,7 @@
     alldates=iso,
     autolang=other,
     backend=biber,
-    sortcites=true,
+    sorting=none,
     style=numeric,
     abbreviate=true,
     minalphanames=3,
